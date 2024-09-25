@@ -10,10 +10,11 @@ jobs:
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v3
-    
-    - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@4.3.0
+
+    - name: 📂 Sync files via plain FTP
+      uses: SamKirkland/FTP-Deploy-Action@4
       with:
         server: 146.190.222.56
         username: pro_1
         password: 0987654321
+        protocol: ftp  # Ensure the protocol is plain FTP
