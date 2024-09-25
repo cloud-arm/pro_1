@@ -14,6 +14,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        server: ftp.colorbiz.org
-        username: admin@demo.colorbiz.org
-        password: SSidt1234
+        server: 146.190.222.56
+        username: pro_1
+        password: 0987654321
